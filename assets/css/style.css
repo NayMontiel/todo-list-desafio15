@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #bdc6c3; 
+}
+.container{
+    background: #f2f2f2;
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-left: 10%;
+    border: 1px solid red;
+    margin-top: 10%;
+}
+.title{
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+label{
+    display: block;
+    font-weight: 300;
+    padding: 5px;
+    margin-left: 50px;
+}
+input{
+    width: 80%;
+    padding: 10px;
+    margin-right: 10px;
+}
+#inputText{
+    margin-left: 40px;
+}
+button{
+    width: 10%;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    background: #1b7443;
+    border: none;
+    border-radius: 10%;
+}
+button:hover{
+    background: #33ce79;
+}
+.box-result{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    
+}
+.result{
+    display: block;
+    padding: 5px;
+}
+.result h4{
+    padding: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+.class_tachado{
+    text-decoration: line-through;
+    color: rgb(94, 91, 91);
+
+}
+#btn-eliminar{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    border: 2px solid red;
+  }
+  td, th{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+ tr:nth-child(even) {
+    background-color: #dddddd;
+  }
